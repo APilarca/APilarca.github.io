@@ -1,3 +1,26 @@
 body {
-	background: blue;
+	background: tan;
+}
+
+ul {
+	border: 1px solid black;
+	padding: 5px;
+}
+img {
+	margin: 5%;
+}
+p {
+	font-family: Helvetica;
+}
+#title {
+	font-family: Times;
+}
+a:visited {
+	color: pink;
+}
+.special {
+	color: green;
+}
+@media (max-width: 400px) {
+	margin: 50px;
 }
